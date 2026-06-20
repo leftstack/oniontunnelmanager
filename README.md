@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="../ui/icons/app.svg" alt="Onion Tunnel Manager" width="112" height="112">
-
   # Onion Tunnel Manager
 
   **Publish and reach private services through Tor onion services with a focused desktop interface.**

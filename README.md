@@ -22,8 +22,7 @@ The result is a small, self-contained control surface for private TCP & UDP forw
 - **Live process logs** with copy support and sensitive authentication values redacted from displayed commands
 - **Binary capability checks** before a session starts
 - **Automatic process cleanup** when a session stops or the application exits
-- **Dark, cream, and forest themes** with remembered window state
-- **Single-instance operation** on Windows and Linux
+- **Dark, cream, & forest UI themes**
 
 ## How It Works
 
@@ -33,7 +32,7 @@ Public side                         Tor network                         Private 
 Local service <-- Chisel server <-- Arti onion service  .onion  Arti SOCKS --> Chisel client --> Local port
 ```
 
-On the server, Arti publishes an onion service that forwards to a Chisel server bound to localhost. On the client, Arti provides a local SOCKS proxy and Chisel uses it to reach the server's `.onion` address. Onion Tunnel Manager generates the required Arti configuration, builds the Chisel commands, and supervises both processes.
+For server operation, Arti publishes an onion service that forwards to a Chisel server bound to localhost. For client operation, Arti provides a local SOCKS proxy & Chisel uses it to reach the server's `.onion` address. Onion Tunnel Manager generates the required Arti configuration, builds the Chisel commands, and supervises both processes.
 
 ## Get Onion Tunnel Manager
 
@@ -44,7 +43,7 @@ Packages are available for:
 - Windows 64-bit
 - Linux 64-bit
 
-Arti and Chisel are included with the application package. Onion Tunnel Manager detects them automatically; alternate binaries can be selected from the **Binaries** section when needed.
+The latest copies of Arti & Chisel are included with the application package. Onion Tunnel Manager detects them automatically, though alternate binaries can be selected from the **Binaries** if you want to use your own built binaries.
 
 ## Create a Server
 
@@ -71,11 +70,11 @@ Application data is stored in the `profiles` directory beside Onion Tunnel Manag
 
 ## Security Notes
 
-- Onion Tunnel Manager is a process manager and configuration interface; the network security properties come from Tor, Arti, and Chisel.
+- Onion Tunnel Manager is a process manager and configuration interface; the network security properties come from Arti & Chisel.
 - A tunnel exposes whatever endpoint you configure. Bind services to loopback unless remote access is intentional.
-- Use Chisel authentication and verify the server fingerprint where appropriate.
-- Review the **Server Log** and **Client Log** tabs when diagnosing connectivity, but inspect logs before sharing them.
-- Keep Onion Tunnel Manager, Arti, and Chisel updated and obtain binaries from trusted sources.
+- Use Chisel authentication & verify the server fingerprint where appropriate.
+- Review the **Server Log** & **Client Log** tabs when diagnosing connectivity, but inspect logs before sharing them.
+- Keep Onion Tunnel Manager, Arti, and Chisel updated & obtain binaries from trusted sources.
 
 ## Powered By
 
@@ -84,10 +83,4 @@ Application data is stored in the `profiles` directory beside Onion Tunnel Manag
 
 ## Trademark Notice
 
-Tor is a trademark of The Tor Project, Inc. Onion Tunnel Manager is an independent project and is not endorsed by, sponsored by, or affiliated with The Tor Project.
-
-<div align="center">
-
-  Made by [LeftStack](https://github.com/leftstack)
-
-</div>
+Tor is a trademark of The Tor Project, Inc. Onion Tunnel Manager is an independent project and is not endorsed by or affiliated with The Tor Project.

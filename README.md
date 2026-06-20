@@ -4,19 +4,19 @@
 
   **Publish and reach private services through Tor onion services with a focused desktop interface.**
 
-  Powered by Arti and Chisel.
+  Powered by Arti & Chisel.
 
 </div>
 
-Onion Tunnel Manager starts, configures, and monitors the processes needed to carry Chisel tunnels over Tor. It can publish a local Chisel server as an onion service, connect a Chisel client to that service through Arti's local SOCKS proxy, or do both from the same application.
+Onion Tunnel Manager configures & manages the processes needed to carry Chisel tunnels over Tor. It can publish a local Chisel server as an onion service or connect a Chisel client to that service through Arti's local SOCKS proxy. It can do both from the same application.
 
-The result is a small, self-contained control surface for private TCP and UDP forwarding without manually maintaining Arti configuration files or long Chisel command lines.
+The result is a small, self-contained control surface for private TCP & UDP forwarding without manually maintaining Arti configuration files or long Chisel command lines.
 
 ## Highlights
 
-- **Server and client modes** in one native desktop application
+- **Server & client modes** in one native desktop application
 - **Arti-managed onion services** with automatic address discovery
-- **Forward and reverse Chisel tunnels** over TCP or UDP
+- **Forward & reverse Chisel tunnels** over TCP or UDP
 - **Reusable profiles** with isolated settings and Tor state
 - **Authentication and fingerprint options** for hardened Chisel connections
 - **Live process logs** with copy support and sensitive authentication values redacted from displayed commands

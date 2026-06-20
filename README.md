@@ -78,7 +78,7 @@ Application data is stored in the `profiles` directory beside Onion Tunnel Manag
 
 ## Powered By
 
-- [Arti](https://arti.torproject.org/) for Tor connectivity and onion services
+- [Arti](https://arti.torproject.org/) for Tor connectivity & onion services
 - [Chisel](https://github.com/jpillora/chisel) for application tunnels
 
 ## Trademark Notice

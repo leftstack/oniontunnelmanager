@@ -84,3 +84,6 @@ Application data is stored in the `profiles` directory beside Onion Tunnel Manag
 ## Trademark Notice
 
 Tor is a trademark of The Tor Project, Inc. Onion Tunnel Manager is an independent project and is not endorsed by or affiliated with The Tor Project.
+
+---
+*Note: This repository contains binary releases only.*

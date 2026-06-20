@@ -12,6 +12,8 @@ Onion Tunnel Manager configures & manages the processes needed to carry Chisel t
 
 The result is a small, self-contained control surface for private TCP & UDP forwarding without manually maintaining Arti configuration files or long Chisel command lines.
 
+![Client screenshot](sshot_client.png)
+
 ## Highlights
 
 - **Server & client modes** in one native desktop application
